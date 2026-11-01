@@ -34,6 +34,18 @@ Clean, daily-driver **Retail Google Pixel OS (Android 17 `CinnamonBun`, Build `C
 
 ---
 
+## 📸 Screenshots
+
+| Home Screen (Android 17) | Built-in Wireless OTA | 90Hz AMOLED & Gestures |
+| :---: | :---: | :---: |
+| <img src="screenshots/01_PixelOS_Android17_Home.png" width="250" alt="Home Screen"/> | <img src="screenshots/02_Wireless_OTA_Updater.png" width="250" alt="Wireless OTA"/> | <img src="screenshots/03_Realme_X2_Pro_Settings.png" width="250" alt="90Hz Display & Gestures"/> |
+
+| Android 17 & 4.14 Kernel | Pixel 9 GCam 9.6 (`0.6x`/`1x`/`2x`) | 50W SuperVOOC & Stereo EQ |
+| :---: | :---: | :---: |
+| <img src="screenshots/04_Android17_Version_Kernel.png" width="250" alt="Android 17 Version"/> | <img src="screenshots/05_Pixel9_GCam_Quad_Lens.png" width="250" alt="GCam 9.6 Quad Lens"/> | <img src="screenshots/06_SuperVOOC_Stereo_Audio.png" width="250" alt="50W SuperVOOC & Stereo"/> |
+
+---
+
 ## 📊 Hardware & Feature Status
 
 | Component | Status | Notes |
