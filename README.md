@@ -29,6 +29,7 @@ Clean, daily-driver **Retail Google Pixel OS (Android 17 `CinnamonBun`, Build `C
   - **Charging**: Full **50W SuperVOOC** fast charging support, Smart Charging Limit (`80%` / `90%` / `100%`), and live wattage/current/temperature telemetry.
   - **Audio & Haptics**: Dual **NXP TFA9894** stereo speaker presets (`Balanced Stereo`, `Rich Bass`, `Clear Voice`), `165 Hz` acoustic water/dust speaker cleaner, and **Awinic AW8697** X-axis LRA haptic intensity control.
   - **Screen-Off Gestures**: Double-Tap to Wake (`DT2W`), Double-Tap Status Bar / Home Screen to Sleep (`DT2S`), Draw `V` for Torch, Draw `O` for Camera, and off-screen music gestures.
+  - **Clean-Room Squircle Icons & AGSL Liquid Glass Studio (`v1.3`)**: System-wide `r = 22.50%` `G2` continuous-curvature squircle adaptive icons (`Phone`, `Messages`, and 3-plane `Settings` parallax) plus an opt-in 90Hz **AGSL Liquid Glass Studio** (`Clear` & `Tinted` refractive lens controls with zero global SurfaceFlinger blur overhead).
 - **Pixel Backup & Optional Privacy Browser**:
   - Out-of-the-box **Pixel XL Original Quality Google Photos** backup, native Android Private DNS (DoT/QUIC) compatibility, and one-tap verified **Cromite Browser** installation.
 
@@ -72,10 +73,10 @@ Grab the latest release files from the [**GitHub Releases Page**](https://github
 | :--- | :--- | :---: |
 | **`RMX1931-Android17-PixelOS-VendorBoot.zip`** | **First-time Clean Flash — Step 1 of 2** (Vendor + Goodix UDFPS ODM + Linux `4.14.356` Kernel + `dtbo` + `vbmeta`) | `~858 MiB` |
 | **`RMX1931-Android17-PixelOS-System.zip`** | **First-time Clean Flash — Step 2 of 2** (Full Android 17 Pixel OS + Google Apps + GCam 9.6 + OTA Engine) | `~1.88 GiB` |
-| **`RMX1931-Android17-PixelOS-OTA.zip`** | **Updates on existing installs** (Downloaded automatically by **Settings → System → System update**, or dirty-flashed in TWRP) | `~6–8 MiB` |
+| **`RMX1931-Android17-PixelOS-OTA.zip`** | **Updates on existing installs (`v1.3`)** (Downloaded automatically by **Settings → System → System update**, or dirty-flashed in TWRP) | `~5–8 MiB` |
 
 > **Why is the first-time Clean Flash split into `VendorBoot.zip` + `System.zip`?**
-> GitHub Releases enforces a `2.0 GiB` per-file limit, while a full Android 17 + GMS + GCam 9.6 image totals `~2.72 GiB`. Splitting Vendor/Boot (`[1/2]`) and System (`[2/2]`) keeps 100% of downloads fast and ad-free directly on GitHub Releases. You can queue both ZIPs together in TWRP in a single swipe — and **once installed, all future updates arrive as lightweight ~6–8 MiB Wireless OTAs!**
+> GitHub Releases enforces a `2.0 GiB` per-file limit, while a full Android 17 + GMS + GCam 9.6 image totals `~2.72 GiB`. Splitting Vendor/Boot (`[1/2]`) and System (`[2/2]`) keeps 100% of downloads fast and ad-free directly on GitHub Releases. You can queue both ZIPs together in TWRP in a single swipe — and **once installed, all future updates arrive as lightweight ~5–8 MiB Wireless OTAs!**
 
 Always verify checksums against `SHA256SUMS.txt` attached to each GitHub Release.
 
