@@ -73,10 +73,10 @@ Grab the latest release files from the [**GitHub Releases Page**](https://github
 | :--- | :--- | :---: |
 | **`RMX1931-Android17-PixelOS-VendorBoot.zip`** | **First-time Clean Flash — Step 1 of 2** (Vendor + Goodix UDFPS ODM + Linux `4.14.356` Kernel + `dtbo` + `vbmeta`) | `~858 MiB` |
 | **`RMX1931-Android17-PixelOS-System.zip`** | **First-time Clean Flash — Step 2 of 2** (Full Android 17 Pixel OS + Google Apps + GCam 9.6 + OTA Engine) | `~1.88 GiB` |
-| **`RMX1931-Android17-PixelOS-OTA.zip`** | **Updates on existing installs** (Downloaded automatically by **Settings → System → System update**, or dirty-flashed in TWRP) | `~336 MiB` |
+| **`RMX1931-Android17-PixelOS-OTA.zip`** | **Updates on existing installs** (Downloaded automatically by **Settings → System → System update**, or dirty-flashed in TWRP) | `~6–8 MiB` |
 
 > **Why is the first-time Clean Flash split into `VendorBoot.zip` + `System.zip`?**
-> GitHub Releases enforces a `2.0 GiB` per-file limit, while a full Android 17 + GMS + GCam 9.6 image totals `~2.72 GiB`. Splitting Vendor/Boot (`[1/2]`) and System (`[2/2]`) keeps 100% of downloads fast and ad-free directly on GitHub Releases. You can queue both ZIPs together in TWRP in a single swipe — and **once installed, all future updates arrive as a single ~336 MiB Wireless OTA!**
+> GitHub Releases enforces a `2.0 GiB` per-file limit, while a full Android 17 + GMS + GCam 9.6 image totals `~2.72 GiB`. Splitting Vendor/Boot (`[1/2]`) and System (`[2/2]`) keeps 100% of downloads fast and ad-free directly on GitHub Releases. You can queue both ZIPs together in TWRP in a single swipe — and **once installed, all future updates arrive as lightweight ~6–8 MiB Wireless OTAs!**
 
 Always verify checksums against `SHA256SUMS.txt` attached to each GitHub Release.
 
