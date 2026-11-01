@@ -3,6 +3,7 @@
 [![Android 17](https://img.shields.io/badge/Android-17%20(CP3A.260905.010)-3DDC84?logo=android&logoColor=white)](https://github.com/nithinyadavamaraboina-online/PixelOS-Android17-RMX1931/releases/latest)
 [![Device](https://img.shields.io/badge/Device-Realme%20X2%20Pro%20(RMX1931%20%2F%20samurai)-FFC915)](https://github.com/nithinyadavamaraboina-online/PixelOS-Android17-RMX1931)
 [![OTA](https://img.shields.io/badge/Wireless%20OTA-Supported%20Built--In-4285F4)](https://github.com/nithinyadavamaraboina-online/PixelOS-Android17-RMX1931/blob/main/ota/rmx1931.json)
+[![XDA Thread](https://img.shields.io/badge/XDA%20Forums-Official%20ROM%20Thread-F5981D)](https://xdaforums.com/t/rom-17-0-rmx1931-unofficial-ota-pixel-os-android-17-for-realme-x2-pro-samurai.4807188/)
 [![SELinux](https://img.shields.io/badge/SELinux-Enforcing-success)](#hardware--feature-status)
 
 Clean, daily-driver **Retail Google Pixel OS (Android 17 `CinnamonBun`, Build `CP3A.260905.010`, API `37.1`)** built specifically for the **Realme X2 Pro (`RMX1931` / `RMX1931L1` / `samurai`, Snapdragon 855+)** — complete with **built-in Wireless OTA System Updates**, full **SELinux Enforcing** security, **90Hz Samsung AMOLED** tuning, **50W SuperVOOC**, **Goodix Optical In-Display Fingerprint**, **Quad-Camera Pixel 9 Google Camera 9.6**, and a native **System-Wide DNS AdBlocker**.
