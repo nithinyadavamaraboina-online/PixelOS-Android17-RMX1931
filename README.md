@@ -6,7 +6,7 @@
 [![XDA Thread](https://img.shields.io/badge/XDA%20Forums-Official%20ROM%20Thread-F5981D)](https://xdaforums.com/t/rom-17-0-ota-android-17-for-realme-x2-pro-samurai-rmx1931.4807188/)
 [![SELinux](https://img.shields.io/badge/SELinux-Enforcing-success)](#hardware--feature-status)
 
-Clean, daily-driver **Retail Google Pixel OS (Android 17 `CinnamonBun`, Build `CP3A.260905.010`, API `37.1`)** built specifically for the **Realme X2 Pro (`RMX1931` / `RMX1931L1` / `samurai`, Snapdragon 855+)** — complete with **built-in Wireless OTA System Updates**, full **SELinux Enforcing** security, **90Hz Samsung AMOLED** tuning, **50W SuperVOOC**, **Goodix Optical In-Display Fingerprint**, **Quad-Camera Pixel 9 Google Camera 9.6**, and a native **System-Wide DNS AdBlocker**.
+Clean, daily-driver **Retail Google Pixel OS (Android 17 `CinnamonBun`, Build `CP3A.260905.010`, API `37.1`)** built specifically for the **Realme X2 Pro (`RMX1931` / `RMX1931L1` / `samurai`, Snapdragon 855+)** — complete with **built-in Wireless OTA System Updates**, full **SELinux Enforcing** security, **90Hz Samsung AMOLED** tuning, **Hardware Codec2 1080p60/4K60 VP9/HEVC** media acceleration, **50W SuperVOOC**, **Goodix Optical In-Display Fingerprint**, **Quad-Camera Pixel 9 Google Camera 9.6**, and **Pixel XL Original Quality Google Photos** backup.
 
 ---
 
@@ -16,8 +16,8 @@ Clean, daily-driver **Retail Google Pixel OS (Android 17 `CinnamonBun`, Build `C
   - Automatic update checks against [`ota/rmx1931.json`](ota/rmx1931.json) on this repository.
   - Dedicated Foreground Download Service (`SamuraiOTAUpdater`) — continues downloading smoothly in the background or with the screen off, supports Pause/Resume (`HTTP 206 Range`), verifies full **SHA-256** integrity before flashing, and installs in one tap via TWRP OpenRecoveryScript without wiping your data.
 - **Genuine Android 17 Retail Pixel Experience (`CP3A.260905.010`)**:
-  - Pre-bundled Google Play Services (GMS), Play Store, Retail Pixel Launcher (`NexusLauncherRelease`), Pixel Wallpaper & Style, Material 3 Expressive SystemUI with hardware-accelerated Adreno 640 frosted shade blurs, and Roboto Flex variable typography.
-  - Full Linux `4.14` kernel compatibility layer for Android 17 (`eBPF` tethering/connectivity backport + `zygote_next` isolated native renderer support for Chrome 156+ & WebView).
+  - Pre-bundled Google Play Services (GMS), Play Store, Retail Pixel Launcher (`NexusLauncherRelease`), Pixel Wallpaper & Style, Material 3 Expressive SystemUI tuned for locked 90Hz Adreno 640 SDM HWC2 composition, and Roboto Flex variable typography.
+  - Full Linux `4.14` kernel compatibility layer for Android 17 (`eBPF` tethering/connectivity backport + `zygote_next` isolated native renderer support for Chrome 156+ & WebView) plus Official PixelOS 17.0 Codec2 `c2.qti.vp9.decoder` / `c2.qti.hevc.decoder` performance tables and 90Hz SM8150-AC PowerHAL tuning.
 - **Pixel 9 Google Camera 9.6 (`BSG V53`) — All 4 Cameras Unlocked**:
   - Patched Qualcomm Spectra 380 CHI HAL (`Project 19781`) exposing all four physical sensors cleanly under `SELinux Enforcing`:
     - **`0.6x`** 8MP Ultrawide
@@ -29,9 +29,8 @@ Clean, daily-driver **Retail Google Pixel OS (Android 17 `CinnamonBun`, Build `C
   - **Charging**: Full **50W SuperVOOC** fast charging support, Smart Charging Limit (`80%` / `90%` / `100%`), and live wattage/current/temperature telemetry.
   - **Audio & Haptics**: Dual **NXP TFA9894** stereo speaker presets (`Balanced Stereo`, `Rich Bass`, `Clear Voice`), `165 Hz` acoustic water/dust speaker cleaner, and **Awinic AW8697** X-axis LRA haptic intensity control.
   - **Screen-Off Gestures**: Double-Tap to Wake (`DT2W`), Double-Tap Status Bar / Home Screen to Sleep (`DT2S`), Draw `V` for Torch, Draw `O` for Camera, and off-screen music gestures.
-- **Native System-Wide DNS AdBlocker (`samurai_adblockd` v2) & Pixel Backup**:
-  - Zero-idle-CPU C daemon using fail-safe Kernel Netfilter `NFQUEUE` (`--queue-bypass`) with `231,800+` **HaGeZi Multi Pro + StevenBlack** rules, Quick Settings tile toggle, 5-minute pause, and one-tap live blocklist updates.
-  - Out-of-the-box **Pixel XL Original Quality Google Photos** backup.
+- **Pixel Backup & Optional Privacy Browser**:
+  - Out-of-the-box **Pixel XL Original Quality Google Photos** backup, native Android Private DNS (DoT/QUIC) compatibility, and one-tap verified **Cromite Browser** installation.
 
 ---
 
@@ -140,8 +139,8 @@ Once you are running Pixel OS Android 17, **you never need a PC or data wipe to 
 
 - **Error `E3005` in TWRP**: Your phone is still on old Android 9/10 firmware. Flash stock Realme UI 2.0 (`C.36`+) firmware first, re-flash TWRP, and repeat Method A.
 - **Stuck on boot logo after switching from another ROM**: Make sure you performed Step 5 (**Wipe → Format Data → `yes`**) during your initial clean flash so legacy FBE keys from the previous ROM are cleared.
-- **Using Custom Private DNS (`dns.adguard.com` / `nextdns.io`)**: You can either keep the built-in **System-wide DNS AdBlocker** ON in **Settings → System → Realme X2 Pro Settings** (`231,800+` local rules with zero latency), or toggle it OFF if you prefer an external Private DNS hostname.
-- **Changing Refresh Rate / DC Dimming / SuperVOOC Smart Charge Limit**: Open **Settings → System → Realme X2 Pro Settings** (or long-press the **90Hz**, **DC Dim**, **Sunlight HBM**, or **AdBlock** Quick Settings tiles).
+- **Using Custom Private DNS (`dns.adguard-dns.com` / `dns.nextdns.io`)**: Native Android Private DNS (DoT/DoH3) works out-of-the-box under **Settings → Network & internet → Private DNS** with zero packet-inspection latency in Chrome or YouTube.
+- **Changing Refresh Rate / DC Dimming / SuperVOOC Smart Charge Limit**: Open **Settings → System → Realme X2 Pro Settings** (or long-press the **90Hz**, **DC Dim**, or **Sunlight HBM** Quick Settings tiles).
 
 ---
 
@@ -154,4 +153,4 @@ Once you are running Pixel OS Android 17, **you never need a PC or data wipe to 
   - Realme X2 Pro (`samurai`) Device Tree: [HyperTeam/android_device_realme_samurai](https://github.com/HyperTeam/android_device_realme_samurai)
   - TWRP Device Tree (`RMX1931`): [HyperTeam/twrp_device_realme_RMX1931](https://github.com/HyperTeam/twrp_device_realme_RMX1931)
 - **OTA Manifest Channel**: [`ota/rmx1931.json`](ota/rmx1931.json)
-- **Special Thanks**: Google AOSP & Pixel Team, HyperTeam (`RMX1931` trees & 4.14 kernel bring-up), BSG (`MGC 9.6`), HaGeZi & StevenBlack (DNS blocklists), and the `uazo/cromite` open-source project.
+- **Special Thanks**: Google AOSP & Pixel Team, PixelOS Team, HyperTeam (`RMX1931` trees & 4.14 kernel bring-up), BSG (`MGC 9.6`), and the `uazo/cromite` open-source project.
