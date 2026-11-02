@@ -29,7 +29,8 @@ Clean, daily-driver **Retail Google Pixel OS (Android 17 `CinnamonBun`, Build `C
   - **Charging**: Full **50W SuperVOOC** fast charging support, Smart Charging Limit (`80%` / `90%` / `100%`), and live wattage/current/temperature telemetry.
   - **Audio & Haptics**: Dual **NXP TFA9894** stereo speaker presets (`Balanced Stereo`, `Rich Bass`, `Clear Voice`), `165 Hz` acoustic water/dust speaker cleaner, and **Awinic AW8697** X-axis LRA haptic intensity control.
   - **Screen-Off Gestures**: Double-Tap to Wake (`DT2W`), Double-Tap Status Bar / Home Screen to Sleep (`DT2S`), Draw `V` for Torch, Draw `O` for Camera, and off-screen music gestures.
-  - **iOS 26 Concentric Icon-Cushion 90Hz Liquid Glass Dock, Global Hidden Pill & 1:1 iOS 26 Icon Suite (`v1.5.1`)**:
+  - **iOS 26 Left-Right Home Screen Pages, Concentric 90Hz Liquid Glass Dock & 1:1 iOS 26 Icon Suite (`v1.5.2`)**:
+    - **Pure iOS 26 Left-Right Navigation (No Vertical Slide-Up Drawer)**: Vertical slide-up All Apps drawer gesture disabled on Home Screen & Dock; all existing and newly installed system/user apps automatically populate left-right Home Screen pages (`0` duplicates, Page 0/Dock/Folders preserved), while the Liquid Glass `"Q Search"` capsule smoothly morphs into real-time 90Hz iOS 26 page dots (`• •`) during horizontal swipes.
     - **Elevated Curved Liquid Glass Dock + Hidden Bottom Navigation Bar**: Lifted `62 px` (`23.62 dp`) bottom margin aligned with iOS 26 SpringBoard thumb elevation, uniform 4-sided `~40 px` icon cushion, smooth continuous curved corners (`R_dock = 96 px`, `p = 2.65`), `0.58dp` `34°` crystal rim, Page-0 wallpaper refraction crop, toggleable `"Q Search"` pill, and globally hidden bottom navigation bar by default (with a live `"Show Bottom Navigation Bar"` toggle in `Settings → Realme X2 Pro`).
     - **1:1 iOS 26 System & App Store Icons (`Auto` / `Default` / `Dark` / `Clear`)**: Multi-plane supersampled `Phone`, `Messages`, `Settings`, `App Store` (`Play Store`), `Camera`, `Clock`, `Files`, `Contacts`, `Calculator`, `Voice Memos` + official `1024×1024` iOS App Store icons (`Gmail`, `Google Photos`, `Chrome`, `YouTube`, `Maps`, `Drive`, `Google`, `YT Music` & more) + clean Plane-0/Plane-1 synthesis for Android-only apps.
     - **One-Tap iOS 26 Wallpapers**: Built-in `Cyan/Cobalt Petals` and `Midnight Cobalt` `1080×2400` procedural wallpapers inside `Realme X2 Pro Settings`.
@@ -76,7 +77,7 @@ Grab the latest release files from the [**GitHub Releases Page**](https://github
 | :--- | :--- | :---: |
 | **`RMX1931-Android17-PixelOS-VendorBoot.zip`** | **First-time Clean Flash — Step 1 of 2** (Vendor + Goodix UDFPS ODM + Linux `4.14.356` Kernel + `dtbo` + `vbmeta`) | `~858 MiB` |
 | **`RMX1931-Android17-PixelOS-System.zip`** | **First-time Clean Flash — Step 2 of 2** (Full Android 17 Pixel OS + Google Apps + GCam 9.6 + OTA Engine) | `~1.88 GiB` |
-| **`RMX1931-Android17-PixelOS-OTA.zip`** | **Updates on existing installs (`v1.5.1`)** (Downloaded automatically by **Settings → System → System update**, or dirty-flashed in TWRP) | `~18 MiB` |
+| **`RMX1931-Android17-PixelOS-OTA.zip`** | **Updates on existing installs (`v1.5.2`)** (Downloaded automatically by **Settings → System → System update**, or dirty-flashed in TWRP) | `~18 MiB` |
 
 > **Why is the first-time Clean Flash split into `VendorBoot.zip` + `System.zip`?**
 > GitHub Releases enforces a `2.0 GiB` per-file limit, while a full Android 17 + GMS + GCam 9.6 image totals `~2.72 GiB`. Splitting Vendor/Boot (`[1/2]`) and System (`[2/2]`) keeps 100% of downloads fast and ad-free directly on GitHub Releases. You can queue both ZIPs together in TWRP in a single swipe — and **once installed, all future updates arrive as compact Wireless OTAs!**
