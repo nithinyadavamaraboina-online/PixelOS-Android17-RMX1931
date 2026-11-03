@@ -1,17 +1,18 @@
 {
   "response": [
     {
-      "datetime": 1793728592,
+      "datetime": 1793733305,
       "filename": "RMX1931-Android17-PixelOS-OTA.zip",
-      "id": "88f8a1c806de0df3ba1265fa08bf39d2e5eb96dea9be8879a5b43fb7d8879e1d",
-      "sha256": "88f8a1c806de0df3ba1265fa08bf39d2e5eb96dea9be8879a5b43fb7d8879e1d",
+      "id": "8d58c634cdc4da1b755110f84eb0d0e87c7ea5ea62a2a0169e6e35176e7aed02",
+      "sha256": "8d58c634cdc4da1b755110f84eb0d0e87c7ea5ea62a2a0169e6e35176e7aed02",
       "romtype": "PIXELOS",
-      "size": 68027374,
-      "url": "https://github.com/nithinyadavamaraboina-online/PixelOS-Android17-RMX1931/releases/download/a17-pixelos-20261101-0604/RMX1931-Android17-PixelOS-OTA.zip",
-      "version": "v1.7.0",
-      "tag": "a17-pixelos-20261101-0604",
+      "channel": "stable",
+      "size": 41327283,
+      "url": "https://github.com/nithinyadavamaraboina-online/PixelOS-Android17-RMX1931/releases/download/pixelos-stable-v2.1.0/RMX1931-Android17-PixelOS-OTA.zip",
+      "version": "v2.1.0",
+      "tag": "pixelos-stable-v2.1.0",
       "device": "RMX1931",
-      "changelog": "Pixel OS v1.7.0 \u2014 1:1 iOS 26 Lock Screen, Dock-Grade Liquid Glass & Zero-Glitch Gestures on Android 17 for Realme X2 Pro (RMX1931)\n\u2022 New 1:1 iOS 26 Liquid Glass Lock Screen (IosControlCenter v1.7.0-ios26): oversized hero refractive Liquid Glass clock, circular widgets, stacked bottom notifications, expanded Apple Music platter, Goodix G3 optical UDFPS zone, and Flashlight/Camera droplets + customization in Settings -> Wallpaper & Lock Screen\n\u2022 Calibrated Control Center & Notification Center AGSL Liquid Glass 1:1 to the Home Screen Dock (calm 20% circleMap meniscus refraction & frost, subtle 2.35dp dispersion, zero heavy inner groove/wall glare, and hair-fine 0.58dp 34\u00b0 specular rim)\n\u2022 Eliminated the 1% visible -> blanking glitch on both left and right pull-downs (removed shade-collapse self-dismiss feedback loop, monotonic swipe sequence guard, and window-focus handoff protection in NexusLauncherRelease v17.7.0-ios26)\n\u2022 Fixed left Notification Center & right Control Center swipe-up-to-close via 90Hz NestedScrollConnection + PointerEventPass.Final + Home Bar velocity tracking"
+      "changelog": "Pixel OS v2.1.0 \u2014 Pure Retail Google PixelOS Stable Reset for Realme X2 Pro (RMX1931)\n\u2022 Restores 100% Pure Google PixelOS Experience on the default Stable channel: unmodified Retail Google Pixel Launcher (vertical App Drawer + bottom Search bar), stock Material 3 Expressive SystemUI & Notification Shade, stock Android Settings, Google Phone, Google Messages, and circular Pixel adaptive icons\n\u2022 Quiet, Rock-Solid Stable Channel: regular experimental UI updates are paused on Stable \u2014 only verified core hardware, security, and app compatibility fixes are promoted here\n\u2022 New Opt-In 'iOS Style UI Beta' Toggle in Settings -> System -> System update: turn ON anytime if you want active iOS 26 Liquid Glass UI, Lock Screen, Notification/Control Center, and iOS Dialer/Messages beta updates, or keep OFF for pure Google PixelOS\n\u2022 Shared Core Fixes Included: Chrome 156+ / WebView zygote_next Linux 4.14 compatibility fix, calibrated OLED low-brightness & HBM boot guard, Pixel 9 GCam 9.6 (all 4 lenses), Unlimited Google Photos backup, and atomic /data/ota_raw block-image OTA support"
     }
   ]
 }

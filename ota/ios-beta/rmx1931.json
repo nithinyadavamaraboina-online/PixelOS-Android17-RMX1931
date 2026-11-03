@@ -1,0 +1,18 @@
+{
+  "response": [
+    {
+      "datetime": 1793733365,
+      "filename": "RMX1931-Android17-iOSBeta-System-v2.1.0-b1.zip",
+      "id": "2ffa7092833f6b882361cb141844f2a103d61c33567c6b90bcb0d70b68c7fcfb",
+      "sha256": "2ffa7092833f6b882361cb141844f2a103d61c33567c6b90bcb0d70b68c7fcfb",
+      "romtype": "PIXELOS",
+      "channel": "ios_beta",
+      "size": 1962782111,
+      "url": "https://github.com/nithinyadavamaraboina-online/PixelOS-Android17-RMX1931/releases/download/ios-beta-v2.1.0-b1/RMX1931-Android17-iOSBeta-System-v2.1.0-b1.zip",
+      "version": "v2.1.0-b1",
+      "tag": "ios-beta-v2.1.0-b1",
+      "device": "RMX1931",
+      "changelog": "Pixel OS v2.1.0-b1 \u2014 Opt-In iOS Style UI Beta on Android 17 for Realme X2 Pro (RMX1931)\n\u2022 Full iOS 26 Liquid Glass Experience (Opt-In Beta Channel): 90Hz Liquid Glass Home Screen Dock & Q Search Pill, 129 multi-plane iOS 26 icons (Auto / Default / Dark / Clear), and pure left-right SpringBoard navigation\n\u2022 1:1 iOS 26 Lock Screen, Notification Center & Control Center (IosControlCenter): oversized hero refractive clock, stacked notifications, expanded media platter, Goodix G3 UDFPS zone, and Dock-calibrated AGSL meniscus refraction\n\u2022 Standalone iOS 26 Settings (IosSettings), iCall 26 Phone Dialer (ROLE_DIALER), Liquid Glass Messages (IosMessages, ROLE_SMS), and 90Hz iOS Styler calibration studio (20% Refraction / 20% Frost / 70% Depth defaults)\n\u2022 Shared PixelOS Core: Linux 4.14.356 eBPF + Chrome 156+ zygote_next fix, Pixel 9 GCam 9.6 Quad-Camera HAL, 90Hz OLED DC Dimming, brightness/HBM calibration, and two-way switch back to Stable PixelOS anytime in Settings -> System -> System update"
+    }
+  ]
+}
