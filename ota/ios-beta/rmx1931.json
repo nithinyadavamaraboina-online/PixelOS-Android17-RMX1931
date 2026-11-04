@@ -1,18 +1,18 @@
 {
   "response": [
     {
-      "datetime": 1793802344,
-      "filename": "RMX1931-Android17-iOSBeta-OTA-v2.1.3-b3.zip",
-      "id": "c42199add8ef17e5a57ea692782394b820740a7108a1309c263b9fdbdd4cbe1e",
-      "sha256": "c42199add8ef17e5a57ea692782394b820740a7108a1309c263b9fdbdd4cbe1e",
+      "datetime": 1793817996,
+      "filename": "RMX1931-Android17-iOSBeta-OTA-v2.1.3-b4.zip",
+      "id": "f110be01369b53f6ca21414734378964e35d3e0767347f3ca2366d8f4ac7c625",
+      "sha256": "f110be01369b53f6ca21414734378964e35d3e0767347f3ca2366d8f4ac7c625",
       "romtype": "PIXELOS",
       "channel": "ios_beta",
-      "size": 68039254,
-      "url": "https://github.com/nithinyadavamaraboina-online/PixelOS-Android17-RMX1931/releases/download/ios-beta-v2.1.3-b3/RMX1931-Android17-iOSBeta-OTA-v2.1.3-b3.zip",
-      "version": "v2.1.3-b3",
-      "tag": "ios-beta-v2.1.3-b3",
+      "size": 59505710,
+      "url": "https://github.com/nithinyadavamaraboina-online/PixelOS-Android17-RMX1931/releases/download/ios-beta-v2.1.3-b4/RMX1931-Android17-iOSBeta-OTA-v2.1.3-b4.zip",
+      "version": "v2.1.3-b4",
+      "tag": "ios-beta-v2.1.3-b4",
       "device": "RMX1931",
-      "changelog": "Pixel OS v2.1.3-b3 \u2014 Opt-In iOS Style UI Beta on Android 17 for Realme X2 Pro (RMX1931)\n\u2022 Fixed Home Screen Left/Right Swipe Cross-Flash & Top Status/Notification Bar Pull-Down (v1.7.5-ios26): eliminated opposite-sheet crossfade/RenderNode flash on left & right Home Screen swipes and added display-level SPY gesture monitoring + transient-bar touch-steal recovery so pulling down from the top status/notification bar reliably opens Notification Center (left) and Control Center (right) everywhere\n\u2022 Fixed iOS 26 Lock Screen Pull-Up & Notification Center Bleed-Through (v1.7.4-ios26): eliminated stock Android NotificationShade flash, double-animation snap-back, blank wallpaper stall, task-close black bar, and duplicate Notification Center pull-down over Lock Screen \u2014 delivering smooth 90Hz finger-tracking unlock straight to the Home Screen\n\u2022 Compact Wireless Patch OTA (< 80 MiB \u2014 no 1.81 GB full system re-download required!)\n\u2022 Fixed Websites Not Opening in Chrome, Brave & Chromium Browsers: stripped Qualcomm vendor init.target.rc 'stop statsd' and hardened zygote_next's native species library (libzygote_species_android_native.so) so isolated Chromium renderer zygotes (*_zygote_native / NativeOnlySandboxedProcessService0) never abort on closed /dev/socket/statsdw FDs\n\u2022 Zero-Freeze Cold App Startup & 4.14 eBPF/DNS Networking + Out-of-the-Box 4K60 Gyro-EIS3 Video Stabilization\n\u2022 Full iOS 26 Liquid Glass Suite (Opt-In Beta Channel): 90Hz Liquid Glass Dock, iOS 26 Lock Screen / Notification Center / Control Center, IosSettings, iCall 26, IosMessages, and iOS Styler"
+      "changelog": "Pixel OS v2.1.3-b4 \u2014 Opt-In iOS Style UI Beta on Android 17 for Realme X2 Pro (RMX1931)\n\u2022 1:1 Apple iOS 26 Phone, Keypad & Live Call Screen (IosDialer v1.7.6-ios26): completely eradicated third-party modded iCall 26 (zero LITEAPKS/ad popups, zero bloat Setting tab) and shipped our clean-room 90Hz Liquid Glass Phone + Telecom InCallService in /system/priv-app with Hooke-spring sliding 5-tab Liquid Glass capsule (Favorites, Recents, Contacts, Keypad, Voicemail), 1:1 iOS 26 circular Keypad, and live wallpaper-blurred Call Screen (IosCallActivity)\n\u2022 Polished iOS 26 Messages (IosMessages v1.7.5-ios26): promoted to /system/priv-app with RoleManager SMS verification (zero false 'Set Default' header overlap), single docked Liquid Glass Search + Compose bar, clean ChatHeader avatar/pill geometry, and live Audio Call button for dialable threads\n\u2022 Fixed Home Screen Left/Right Swipe Cross-Flash & Top Status/Notification Bar Pull-Down + Smooth 90Hz Lock Screen Pull-Up\n\u2022 Compact Wireless Patch OTA (< 80 MiB \u2014 no 1.81 GB full system re-download required!)\n\u2022 Fixed Websites Not Opening in Chrome, Brave & Chromium Browsers + Out-of-the-Box 4K60 Gyro-EIS3 Video Stabilization"
     }
   ]
 }
