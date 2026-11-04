@@ -1,18 +1,18 @@
 {
   "response": [
     {
-      "datetime": 1793771911,
+      "datetime": 1793781641,
       "filename": "RMX1931-Android17-PixelOS-OTA.zip",
-      "id": "583243e62a62629d88e7c79f5678d2a07c25c3d869d52f3ad09d4bbecc24f09f",
-      "sha256": "583243e62a62629d88e7c79f5678d2a07c25c3d869d52f3ad09d4bbecc24f09f",
+      "id": "bf94c2c984a18ae45f5190cc329dd9fa778e65f58c9255550e97e42b93e52a1e",
+      "sha256": "bf94c2c984a18ae45f5190cc329dd9fa778e65f58c9255550e97e42b93e52a1e",
       "romtype": "PIXELOS",
       "channel": "stable",
-      "size": 41509475,
-      "url": "https://github.com/nithinyadavamaraboina-online/PixelOS-Android17-RMX1931/releases/download/pixelos-stable-v2.1.2/RMX1931-Android17-PixelOS-OTA.zip",
-      "version": "v2.1.2",
-      "tag": "pixelos-stable-v2.1.2",
+      "size": 41526009,
+      "url": "https://github.com/nithinyadavamaraboina-online/PixelOS-Android17-RMX1931/releases/download/pixelos-stable-v2.1.3/RMX1931-Android17-PixelOS-OTA.zip",
+      "version": "v2.1.3",
+      "tag": "pixelos-stable-v2.1.3",
       "device": "RMX1931",
-      "changelog": "Pixel OS v2.1.2 \u2014 Pure Retail Google PixelOS Stable Update for Realme X2 Pro (RMX1931)\n\u2022 Instant Browser URL Loading & Zero-Freeze Cold App/WebView Startup: restored Android 17 mainline 4.14 eBPF/DNS map initialization (netbpfload_414 + DnsBpfHelper) for Chrome/Brave/Private DNS, pre-started zygote_next at boot, and unlocked SELinux ctl.start$zygote_next to eliminate the 80s splash-screen cold-launch stall\n\u2022 Out-of-the-Box 4K 60fps & 1080p 60fps Hardware Gyro-EIS3 Video Stabilization: patched Qualcomm Spectra 380 CHI HAL (UsecaseVideo4kEIS3PreviewEIS2 + stream-order-independent binder) & pre-seeded Pixel 9 GCam 9.6 custom EIS sessions (32808 60fps / 32779 30fps) \u2014 zero manual XML loading required, works automatically in GCam 9.6 (0.6x/1x/2x) and third-party Camera2 video apps\n\u2022 100% Pure Google PixelOS Experience on Default Stable Channel: unmodified Retail Google Pixel Launcher (vertical App Drawer + bottom Search bar), stock Material 3 Expressive SystemUI & Notification Shade, stock Android Settings, Google Phone, Google Messages, and circular Pixel adaptive icons\n\u2022 Opt-In 'iOS Style UI Beta' Toggle in Settings -> System -> System update: keep OFF for pure Google PixelOS daily-driver stability, or turn ON anytime to try iOS 26 Liquid Glass UI updates"
+      "changelog": "Pixel OS v2.1.3 \u2014 Pure Retail Google PixelOS Stable Update for Realme X2 Pro (RMX1931)\n\u2022 Fixed Websites Not Opening in Chrome, Brave & Chromium Browsers: stripped Qualcomm vendor init.target.rc 'stop statsd' and hardened zygote_next's native species library (libzygote_species_android_native.so) so isolated Chromium renderer zygotes (*_zygote_native / NativeOnlySandboxedProcessService0) never abort on closed /dev/socket/statsdw FDs\n\u2022 Zero-Freeze Cold App Startup & 4.14 eBPF/DNS Networking: preserved mainline 4.14 eBPF/DNS map initialization (netbpfload_414 + DnsBpfHelper) and libmeminfo 4.14 fallback\n\u2022 Out-of-the-Box 4K 60fps & 1080p 60fps Hardware Gyro-EIS3 Video Stabilization: patched Qualcomm Spectra 380 CHI HAL (UsecaseVideo4kEIS3PreviewEIS2 + stream-order-independent binder) & pre-seeded Pixel 9 GCam 9.6 custom EIS sessions (32808 60fps / 32779 30fps) \u2014 works automatically in GCam 9.6 (0.6x/1x/2x) and third-party Camera2 video apps\n\u2022 100% Pure Google PixelOS Experience on Default Stable Channel + Opt-In 'iOS Style UI Beta' Toggle in Settings -> System -> System update"
     }
   ]
 }
