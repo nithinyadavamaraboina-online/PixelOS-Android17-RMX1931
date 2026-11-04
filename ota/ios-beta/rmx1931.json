@@ -1,18 +1,18 @@
 {
   "response": [
     {
-      "datetime": 1793789031,
-      "filename": "RMX1931-Android17-iOSBeta-OTA-v2.1.3-b1.zip",
-      "id": "45b7950e31fab541e8592682035be3fbbc7dbbe87017cc50ba4679c8ad903983",
-      "sha256": "45b7950e31fab541e8592682035be3fbbc7dbbe87017cc50ba4679c8ad903983",
+      "datetime": 1793798044,
+      "filename": "RMX1931-Android17-iOSBeta-OTA-v2.1.3-b2.zip",
+      "id": "502eee2f9628a9598a0f847a910bcda0221b3226478da279e70cfcc776829bc9",
+      "sha256": "502eee2f9628a9598a0f847a910bcda0221b3226478da279e70cfcc776829bc9",
       "romtype": "PIXELOS",
       "channel": "ios_beta",
-      "size": 68033025,
-      "url": "https://github.com/nithinyadavamaraboina-online/PixelOS-Android17-RMX1931/releases/download/ios-beta-v2.1.3-b1/RMX1931-Android17-iOSBeta-OTA-v2.1.3-b1.zip",
-      "version": "v2.1.3-b1",
-      "tag": "ios-beta-v2.1.3-b1",
+      "size": 68035503,
+      "url": "https://github.com/nithinyadavamaraboina-online/PixelOS-Android17-RMX1931/releases/download/ios-beta-v2.1.3-b2/RMX1931-Android17-iOSBeta-OTA-v2.1.3-b2.zip",
+      "version": "v2.1.3-b2",
+      "tag": "ios-beta-v2.1.3-b2",
       "device": "RMX1931",
-      "changelog": "Pixel OS v2.1.3-b1 \u2014 Opt-In iOS Style UI Beta on Android 17 for Realme X2 Pro (RMX1931)\n\u2022 Compact Wireless Patch OTA (< 80 MiB \u2014 no 1.81 GB full system re-download required!)\n\u2022 Fixed Websites Not Opening in Chrome, Brave & Chromium Browsers: stripped Qualcomm vendor init.target.rc 'stop statsd' and hardened zygote_next's native species library (libzygote_species_android_native.so) so isolated Chromium renderer zygotes (*_zygote_native / NativeOnlySandboxedProcessService0) never abort on closed /dev/socket/statsdw FDs\n\u2022 Zero-Freeze Cold App Startup & 4.14 eBPF/DNS Networking: preserved mainline 4.14 eBPF/DNS map initialization (netbpfload_414 + DnsBpfHelper) and libmeminfo 4.14 fallback\n\u2022 Out-of-the-Box 4K 60fps & 1080p 60fps Hardware Gyro-EIS3 Video Stabilization: patched Qualcomm Spectra 380 CHI HAL & pre-seeded Pixel 9 GCam 9.6 custom EIS sessions (32808 60fps / 32779 30fps)\n\u2022 Full iOS 26 Liquid Glass Suite (Opt-In Beta Channel): 90Hz Liquid Glass Dock, iOS 26 Lock Screen / Notification Center / Control Center, IosSettings, iCall 26, IosMessages, and iOS Styler"
+      "changelog": "Pixel OS v2.1.3-b2 \u2014 Opt-In iOS Style UI Beta on Android 17 for Realme X2 Pro (RMX1931)\n\u2022 Fixed iOS 26 Lock Screen Pull-Up & Notification Center Bleed-Through (v1.7.4-ios26): eliminated stock Android NotificationShade flash, double-animation snap-back, blank wallpaper stall, task-close black bar, and duplicate Notification Center pull-down over Lock Screen \u2014 delivering smooth 90Hz finger-tracking unlock straight to the Home Screen\n\u2022 Compact Wireless Patch OTA (< 80 MiB \u2014 no 1.81 GB full system re-download required!)\n\u2022 Fixed Websites Not Opening in Chrome, Brave & Chromium Browsers: stripped Qualcomm vendor init.target.rc 'stop statsd' and hardened zygote_next's native species library (libzygote_species_android_native.so) so isolated Chromium renderer zygotes (*_zygote_native / NativeOnlySandboxedProcessService0) never abort on closed /dev/socket/statsdw FDs\n\u2022 Zero-Freeze Cold App Startup & 4.14 eBPF/DNS Networking + Out-of-the-Box 4K60 Gyro-EIS3 Video Stabilization\n\u2022 Full iOS 26 Liquid Glass Suite (Opt-In Beta Channel): 90Hz Liquid Glass Dock, iOS 26 Lock Screen / Notification Center / Control Center, IosSettings, iCall 26, IosMessages, and iOS Styler"
     }
   ]
 }
