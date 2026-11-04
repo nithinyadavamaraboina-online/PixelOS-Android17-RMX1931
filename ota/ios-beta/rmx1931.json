@@ -1,18 +1,18 @@
 {
   "response": [
     {
-      "datetime": 1793766948,
-      "filename": "RMX1931-Android17-iOSBeta-OTA-v2.1.1-b1.zip",
-      "id": "c9a7191011147508b001f2028a0d36038a423993900b4219ea55f4989b9e0f71",
-      "sha256": "c9a7191011147508b001f2028a0d36038a423993900b4219ea55f4989b9e0f71",
+      "datetime": 1793771971,
+      "filename": "RMX1931-Android17-iOSBeta-System-v2.1.2-b1.zip",
+      "id": "1196c4aebba7fbf1845527d41ade8a808d24bc13058d499f7c886387a5d9cd08",
+      "sha256": "1196c4aebba7fbf1845527d41ade8a808d24bc13058d499f7c886387a5d9cd08",
       "romtype": "PIXELOS",
       "channel": "ios_beta",
-      "size": 68052637,
-      "url": "https://github.com/nithinyadavamaraboina-online/PixelOS-Android17-RMX1931/releases/download/ios-beta-v2.1.1-b1/RMX1931-Android17-iOSBeta-OTA-v2.1.1-b1.zip",
-      "version": "v2.1.1-b1",
-      "tag": "ios-beta-v2.1.1-b1",
+      "size": 1979010484,
+      "url": "https://github.com/nithinyadavamaraboina-online/PixelOS-Android17-RMX1931/releases/download/ios-beta-v2.1.2-b1/RMX1931-Android17-iOSBeta-System-v2.1.2-b1.zip",
+      "version": "v2.1.2-b1",
+      "tag": "ios-beta-v2.1.2-b1",
       "device": "RMX1931",
-      "changelog": "Pixel OS v2.1.1-b1 \u2014 Opt-In iOS Style UI Beta Update for Realme X2 Pro (RMX1931)\n\u2022 1:1 iOS 26 3D Cylindrical Refractive Lock Screen Clock & Spatial Depth (IosControlCenter v1.7.3): Signed-EDT circular-cylinder lens refraction (~11dp monotonic meniscus bend, zero medial crease, zero vertical white stripes), molded 5\u20137dp crystal bevel depth + exterior contact lift shadow, and automatic Spatial Scene foreground disc occlusion\n\u2022 Blended Active Liquid Glass Control Center & Settings (IosControlCenter v1.7.3 + IosSettings v2.0.5): integrated pearl-luminous active controls & liquid vertical sliders inside AGSL meniscus refraction with exact 0.00px OFF/ON stadium alignment and clean minimal Lock Screen\n\u2022 Out-of-the-Box 4K 60fps & 1080p 60fps Hardware Gyro-EIS3 Video Stabilization: patched Qualcomm Spectra 380 CHI HAL & pre-seeded Pixel 9 GCam 9.6 custom EIS sessions (32808 60fps / 32779 30fps)\n\u2022 Shared PixelOS Core: 90Hz Liquid Glass Dock + 129 iOS 26 icons, iCall 26, IosMessages, iOS Styler, Chrome 156+ zygote_next Linux 4.14 fix, and two-way switch back to Pure PixelOS Stable anytime in Settings -> System -> System update"
+      "changelog": "Pixel OS v2.1.2-b1 \u2014 Opt-In iOS Style UI Beta on Android 17 for Realme X2 Pro (RMX1931)\n\u2022 Instant Browser URL Loading & Zero-Freeze Cold App/WebView Startup: restored Android 17 mainline 4.14 eBPF/DNS map initialization (netbpfload_414 + DnsBpfHelper) for Chrome/Brave/Private DNS, pre-started zygote_next at boot, and unlocked SELinux ctl.start$zygote_next to eliminate the 80s splash-screen cold-launch stall\n\u2022 Out-of-the-Box 4K 60fps & 1080p 60fps Hardware Gyro-EIS3 Video Stabilization: patched Qualcomm Spectra 380 CHI HAL (UsecaseVideo4kEIS3PreviewEIS2 + stream-order-independent binder) & pre-seeded Pixel 9 GCam 9.6 custom EIS sessions (32808 60fps / 32779 30fps) \u2014 zero manual XML loading required\n\u2022 Full iOS 26 Liquid Glass Experience (Opt-In Beta Channel): 90Hz Liquid Glass Home Screen Dock & Q Search Pill, 129 multi-plane iOS 26 icons, Lock Screen, Notification Center & Control Center (IosControlCenter), IosSettings, iCall 26, IosMessages & iOS Styler\n\u2022 Shared PixelOS Core: 90Hz OLED DC Dimming & HBM guard, Unlimited Google Photos backup, and two-way switch back to Stable PixelOS anytime in Settings -> System -> System update"
     }
   ]
 }
