@@ -19,10 +19,10 @@ Clean, daily-driver **Retail Google Pixel OS (Android 17 `CinnamonBun`, Build `C
 - **100% Genuine Android 17 Retail Pixel Experience (`CP3A.260905.010` — Default Stable Channel)**:
   - Pre-bundled Google Play Services (GMS), Play Store, unmodified Retail Google Pixel Launcher (`NexusLauncherRelease` with vertical App Drawer & bottom Search bar), stock Google Phone, stock Google Messages, stock Android 17 Settings, Pixel Wallpaper & Style, Material 3 Expressive SystemUI & Notification Shade tuned for locked 90Hz Adreno 640 SDM HWC2 composition, circular Pixel adaptive icons, and Roboto Flex variable typography.
   - Full Linux `4.14` kernel compatibility layer for Android 17 (`eBPF` tethering/connectivity backport + `zygote_next` isolated native renderer support for Chrome 156+ & WebView) plus Official PixelOS 17.0 Codec2 `c2.qti.vp9.decoder` / `c2.qti.hevc.decoder` performance tables and 90Hz SM8150-AC PowerHAL tuning.
-- **Pixel 9 Google Camera 9.6 (`BSG V53`) — All 4 Cameras Unlocked**:
-  - Patched Qualcomm Spectra 380 CHI HAL (`Project 19781`) exposing all four physical sensors cleanly under `SELinux Enforcing`:
+- **Pixel 9 Google Camera 9.6 (`BSG V53`) — All 4 Cameras + Out-of-the-Box 4K 60fps Gyro-EIS3**:
+  - Patched Qualcomm Spectra 380 CHI HAL (`Project 19781` + `UsecaseVideo4kEIS3PreviewEIS2` + stream-order-independent binder) exposing all four physical sensors cleanly under `SELinux Enforcing` with **out-of-the-box 4K 60fps & 1080p 60fps Hardware Gyro-EIS3 video stabilization** (pre-seeded `32808` / `32779` session IDs — zero manual XML import needed, works in GCam 9.6 and third-party Camera2 video apps):
     - **`0.6x`** 8MP Ultrawide
-    - **`1.0x`** 64MP Samsung GW1 Primary (`HDR+ Enhanced` & `Night Sight`)
+    - **`1.0x`** 64MP Samsung GW1 Primary (`HDR+ Enhanced`, `Night Sight` & `4K 60fps EIS3`)
     - **`2.0x`** 13MP Optical Telephoto
     - **Front** 16MP Sony IMX471 Selfie
 - **Realme X2 Pro Hardware Hub (`Settings → System → Realme X2 Pro Settings` / `SamuraiParts`)**:
@@ -58,7 +58,7 @@ Clean, daily-driver **Retail Google Pixel OS (Android 17 `CinnamonBun`, Build `C
 | **Bluetooth 5.0 & High-Res Audio** | ✅ Working | SBC, AAC, aptX, aptX HD, aptX TWS+, LDAC |
 | **90Hz AMOLED + HBM + DC Dimming** | ✅ Working | Samsung `SOFEF03F-M` calibrated, 0% Launcher jank |
 | **In-Display Fingerprint (UDFPS)** | ✅ Working | Goodix G3 optical sensor (screen-on & AoD) |
-| **Quad Rear + Front Cameras (GCam 9.6)** | ✅ Working | `0.6x` UW, `1x` 64MP, `2x` Tele, `16MP` Front + 4K video |
+| **Quad Rear + Front Cameras (GCam 9.6)** | ✅ Working | `0.6x` UW, `1x` 64MP, `2x` Tele, `16MP` Front + **4K 60fps Gyro-EIS3** |
 | **50W SuperVOOC Fast Charging** | ✅ Working | Smart charge limit & thermal protection supported |
 | **Dual Stereo Speakers + 3.5mm Jack** | ✅ Working | Dual TFA9894 amps + 5-band hardware EQ |
 | **NFC / GPS / Sensors / OTG** | ✅ Working | Dual-frequency L1+L5 GNSS |
@@ -74,8 +74,8 @@ Grab the latest release files from the [**GitHub Releases Page**](https://github
 | Package | When to Use | Approximate Size |
 | :--- | :--- | :---: |
 | **`RMX1931-Android17-PixelOS-VendorBoot.zip`** | **First-time Clean Flash — Step 1 of 2** (Vendor + Goodix UDFPS ODM + Linux `4.14.356` Kernel + `dtbo` + `vbmeta`) | `~858 MiB` |
-| **`RMX1931-Android17-PixelOS-System.zip`** | **First-time Clean Flash — Step 2 of 2** (Full Pure Google Pixel OS `v2.1.0` Stable + Google Apps + GCam 9.6 + Dual-Channel OTA Engine) | `~1.85 GiB` |
-| **`RMX1931-Android17-PixelOS-OTA.zip`** | **Wireless Pure Pixel OS Reset (`v2.1.0`)** for existing `v1.x` / `v2.0` installs (Downloaded automatically by **Settings → System → System update**, restoring clean Google Pixel OS without wiping data) | `~45 MiB` |
+| **`RMX1931-Android17-PixelOS-System.zip`** | **First-time Clean Flash — Step 2 of 2** (Full Pure Google Pixel OS `v2.1.1` Stable + Google Apps + 4K60 EIS3 GCam 9.6 + Dual-Channel OTA Engine) | `~1.85 GiB` |
+| **`RMX1931-Android17-PixelOS-OTA.zip`** | **Wireless Pure Pixel OS Update (`v2.1.1`)** for existing `v1.x` / `v2.0` / `v2.1.0` installs (Downloaded automatically by **Settings → System → System update**, adding 4K60 Gyro-EIS3 & pure Google Pixel OS without wiping data) | `~41 MiB` |
 
 > **Why is the first-time Clean Flash split into `VendorBoot.zip` + `System.zip`?**
 > GitHub Releases enforces a `2.0 GiB` per-file limit, while a full Android 17 + GMS + GCam 9.6 image totals `~2.72 GiB`. Splitting Vendor/Boot (`[1/2]`) and System (`[2/2]`) keeps 100% of downloads fast and ad-free directly on GitHub Releases. You can queue both ZIPs together in TWRP in a single swipe — and **once installed, all future updates arrive as compact Wireless OTAs!**
