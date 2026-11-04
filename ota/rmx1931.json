@@ -1,18 +1,18 @@
 {
   "response": [
     {
-      "datetime": 1793733305,
+      "datetime": 1793765289,
       "filename": "RMX1931-Android17-PixelOS-OTA.zip",
-      "id": "8d58c634cdc4da1b755110f84eb0d0e87c7ea5ea62a2a0169e6e35176e7aed02",
-      "sha256": "8d58c634cdc4da1b755110f84eb0d0e87c7ea5ea62a2a0169e6e35176e7aed02",
+      "id": "d021f819f506824552f5718729e8ee3e226e2497e618f11d9bca3962e6081b30",
+      "sha256": "d021f819f506824552f5718729e8ee3e226e2497e618f11d9bca3962e6081b30",
       "romtype": "PIXELOS",
       "channel": "stable",
-      "size": 41327283,
-      "url": "https://github.com/nithinyadavamaraboina-online/PixelOS-Android17-RMX1931/releases/download/pixelos-stable-v2.1.0/RMX1931-Android17-PixelOS-OTA.zip",
-      "version": "v2.1.0",
-      "tag": "pixelos-stable-v2.1.0",
+      "size": 41328414,
+      "url": "https://github.com/nithinyadavamaraboina-online/PixelOS-Android17-RMX1931/releases/download/pixelos-stable-v2.1.1/RMX1931-Android17-PixelOS-OTA.zip",
+      "version": "v2.1.1",
+      "tag": "pixelos-stable-v2.1.1",
       "device": "RMX1931",
-      "changelog": "Pixel OS v2.1.0 \u2014 Pure Retail Google PixelOS Stable Reset for Realme X2 Pro (RMX1931)\n\u2022 Restores 100% Pure Google PixelOS Experience on the default Stable channel: unmodified Retail Google Pixel Launcher (vertical App Drawer + bottom Search bar), stock Material 3 Expressive SystemUI & Notification Shade, stock Android Settings, Google Phone, Google Messages, and circular Pixel adaptive icons\n\u2022 Quiet, Rock-Solid Stable Channel: regular experimental UI updates are paused on Stable \u2014 only verified core hardware, security, and app compatibility fixes are promoted here\n\u2022 New Opt-In 'iOS Style UI Beta' Toggle in Settings -> System -> System update: turn ON anytime if you want active iOS 26 Liquid Glass UI, Lock Screen, Notification/Control Center, and iOS Dialer/Messages beta updates, or keep OFF for pure Google PixelOS\n\u2022 Shared Core Fixes Included: Chrome 156+ / WebView zygote_next Linux 4.14 compatibility fix, calibrated OLED low-brightness & HBM boot guard, Pixel 9 GCam 9.6 (all 4 lenses), Unlimited Google Photos backup, and atomic /data/ota_raw block-image OTA support"
+      "changelog": "Pixel OS v2.1.1 \u2014 Pure Retail Google PixelOS Stable Update for Realme X2 Pro (RMX1931)\n\u2022 Out-of-the-Box 4K 60fps & 1080p 60fps Hardware Gyro-EIS3 Video Stabilization: patched Qualcomm Spectra 380 CHI HAL (UsecaseVideo4kEIS3PreviewEIS2 + stream-order-independent binder) & pre-seeded Pixel 9 GCam 9.6 custom EIS sessions (32808 60fps / 32779 30fps) \u2014 zero manual XML loading required, works automatically in GCam 9.6 (0.6x/1x/2x) and third-party Camera2 video apps\n\u2022 100% Pure Google PixelOS Experience on Default Stable Channel: unmodified Retail Google Pixel Launcher (vertical App Drawer + bottom Search bar), stock Material 3 Expressive SystemUI & Notification Shade, stock Android Settings, Google Phone, Google Messages, and circular Pixel adaptive icons\n\u2022 Opt-In 'iOS Style UI Beta' Toggle in Settings -> System -> System update: keep OFF for pure Google PixelOS daily-driver stability, or turn ON anytime to try iOS 26 Liquid Glass UI updates\n\u2022 Shared Core Fixes Included: Chrome 156+ / WebView zygote_next Linux 4.14 compatibility fix, calibrated OLED low-brightness & HBM boot guard, Unlimited Google Photos backup, and atomic /data/ota_raw block-image OTA support"
     }
   ]
 }
