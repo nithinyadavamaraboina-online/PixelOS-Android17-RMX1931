@@ -31,7 +31,7 @@ Clean, daily-driver **Retail Google Pixel OS (Android 17 `CinnamonBun`, Build `C
   - **Audio & Haptics**: Dual **NXP TFA9894** stereo speaker presets (`Balanced Stereo`, `Rich Bass`, `Clear Voice`), `165 Hz` acoustic water/dust speaker cleaner, and **Awinic AW8697** X-axis LRA haptic intensity control.
   - **Screen-Off Gestures**: Double-Tap to Wake (`DT2W`), Double-Tap Status Bar / Home Screen to Sleep (`DT2S`), Draw `V` for Torch, Draw `O` for Camera, off-screen music gestures, and optional Bottom Navigation Bar visibility toggle.
 - **Optional Opt-In `"iOS Style UI Beta"` Channel (`Settings → System → System update`)**:
-  - Completely isolated from the default Stable Pixel OS build. When opted in, switches your UI to the experimental **iOS 26 Liquid Glass Suite** (`90Hz` AGSL Liquid Glass Home Screen Dock & `"Q Search"` pill, 129 multi-plane iOS 26 squircle icons, left/right **iOS 26 Notification Center & Control Center** + **Lock Screen**, standalone `IosSettings`, `iCall 26` Phone, `IosMessages`, and `iOS Styler` with `20%` Refraction / `20%` Frost / `70%` Wallpaper Depth defaults) while sharing the exact same verified kernel, camera, Chrome/WebView, and hardware fixes.
+  - Completely isolated from the default Stable Pixel OS build. When opted in, switches your UI to the experimental **iOS 26 Liquid Glass Suite** (`90Hz` AGSL Liquid Glass Home Screen Dock & `"Q Search"` pill, 129 multi-plane iOS 26 squircle icons, left/right **iOS 26 Notification Center & Control Center** + **Lock Screen**, standalone `IosSettings`, clean-room `IosDialer` Phone + Live Call Screen, `IosMessages`, and `iOS Styler` with `20%` Refraction / `20%` Frost / `70%` Wallpaper Depth defaults) while sharing the exact same verified kernel, camera, Chrome/WebView, and hardware fixes.
 - **Pixel Backup & Optional Privacy Browser**:
   - Out-of-the-box **Pixel XL Original Quality Google Photos** backup, native Android Private DNS (DoT/QUIC) compatibility, and one-tap verified **Cromite Browser** installation.
 
@@ -73,9 +73,9 @@ Grab the latest release files from the [**GitHub Releases Page**](https://github
 
 | Package | When to Use | Approximate Size |
 | :--- | :--- | :---: |
-| **`RMX1931-Android17-PixelOS-VendorBoot.zip`** | **First-time Clean Flash — Step 1 of 2** (Vendor + Goodix UDFPS ODM + Linux `4.14.356` Kernel + `dtbo` + `vbmeta`) | `~858 MiB` |
-| **`RMX1931-Android17-PixelOS-System.zip`** | **First-time Clean Flash — Step 2 of 2** (Full Pure Google Pixel OS `v2.1.3` Stable + Google Apps + 4K60 EIS3 GCam 9.6 + Chromium/Brave Native Renderer Fix + Dual-Channel OTA Engine) | `~1.85 GiB` |
-| **`RMX1931-Android17-PixelOS-OTA.zip`** | **Wireless Pure Pixel OS Update (`v2.1.3`)** for existing `v1.x` / `v2.0` / `v2.1.x` installs (Downloaded automatically by **Settings → System → System update**, fixing Chrome/Brave website loading, cold app startup & 4K60 Gyro-EIS3 without wiping data) | `~42 MiB` |
+| **`RMX1931-Android17-PixelOS-VendorBoot.zip`** | **First-time Clean Flash — Step 1 of 2** (Vendor + Dual `EXT4`/`F2FS` `/data` fstab + Goodix UDFPS ODM + Linux `4.14.356` Kernel + `dtbo` + `Flags=3` `vbmeta` + clean `/metadata` format) | `~858 MiB` |
+| **`RMX1931-Android17-PixelOS-System.zip`** | **First-time Clean Flash — Step 2 of 2** (Full Pure Google Pixel OS `v2.1.4` Stable + Google Apps + 4K60 EIS3 GCam 9.6 + Chromium/Brave Native Renderer Fix + Dual-Channel OTA Engine) | `~1.85 GiB` |
+| **`RMX1931-Android17-PixelOS-OTA.zip`** | **Wireless Pure Pixel OS Update (`v2.1.4`) — Existing Installs ONLY** (Downloaded automatically by **Settings → System → System update** on `v1.x` / `v2.0` / `v2.1.x` — **do NOT use for a first-time clean flash!**) | `~40 MiB` |
 
 > **Why is the first-time Clean Flash split into `VendorBoot.zip` + `System.zip`?**
 > GitHub Releases enforces a `2.0 GiB` per-file limit, while a full Android 17 + GMS + GCam 9.6 image totals `~2.72 GiB`. Splitting Vendor/Boot (`[1/2]`) and System (`[2/2]`) keeps 100% of downloads fast and ad-free directly on GitHub Releases. You can queue both ZIPs together in TWRP in a single swipe — and **once installed, all future updates arrive as compact Wireless OTAs!**
@@ -112,11 +112,12 @@ Always verify checksums against `SHA256SUMS.txt` attached to each GitHub Release
    - `Vendor`
    - `Data`
    *(Do **not** wipe `Persist`!)* — and **Swipe to Wipe**.
-4. Copy both ZIPs to the phone over USB MTP (or plug in your USB-OTG drive) and tap **Install**:
-   - Select **`RMX1931-Android17-PixelOS-VendorBoot.zip`** first.
-   - Tap **Add more Zips** and select **`RMX1931-Android17-PixelOS-System.zip`** second.
-   - **Swipe to confirm Flash** (waits ~2–3 minutes until `Part [2/2] Android 17 Pixel OS System complete!` appears).
-5. Go back to **Wipe → Format Data**, type **`yes`**, and tap the blue checkmark (required on clean flash to initialize Android 17 File-Based Encryption cleanly).
+4. Copy both ZIPs to the phone over USB MTP (or plug in your USB-OTG drive) and tap **Install** *(order matters — enforced automatically by pre-flight guard `E1000`)*:
+   - Select **`RMX1931-Android17-PixelOS-VendorBoot.zip`** **FIRST** (`[1/2]`).
+   - Tap **Add more Zips** and select **`RMX1931-Android17-PixelOS-System.zip`** **SECOND** (`[2/2]`).
+   - **Swipe to confirm Flash** (waits ~2–3 minutes until `Part [2/2] Android 17 Pixel OS System (v2.1.4) complete!` appears).
+5. Go back to **Wipe → Format Data** (the button on the right), type **`yes`**, and tap the blue checkmark.
+   - *(⚠️ **Important**: Use **Format Data → `yes`** — do **NOT** use "Swipe to Factory Reset / Wipe Data"! Both **`EXT4`** and **`F2FS`** `/data` filesystems are supported out of the box on TWRP `3.7.0_12-0`+.)*
 6. Tap **Reboot → System**.
    - First boot takes **~2–3 minutes** on the Google G animation while Android 17 compiles initial caches, then greets you with the Pixel Setup Wizard!
 
@@ -140,8 +141,11 @@ Once you are running Pixel OS Android 17, **you never need a PC or data wipe to 
 
 ## ❓ Troubleshooting & Tips
 
+- **Error `E1000` / `E1002` in TWRP**:
+  - `E1000` means `System.zip` (`[2/2]`) was flashed before `VendorBoot.zip` (`[1/2]`) on a first-time clean flash — flash **`RMX1931-Android17-PixelOS-VendorBoot.zip` FIRST**, then **`System.zip` SECOND**.
+  - `E1002` means the small `~40 MiB` `OTA.zip` was flashed onto Stock Realme UI or another ROM — `OTA.zip` is strictly for updating existing Pixel OS Android 17 installs; use `VendorBoot.zip` + `System.zip` for a first-time clean flash.
 - **Error `E3005` in TWRP**: Your phone is still on old Android 9/10 firmware. Flash stock Realme UI 2.0 (`C.36`+) firmware first, re-flash TWRP, and repeat Method A.
-- **Stuck on boot logo after switching from another ROM**: Make sure you performed Step 5 (**Wipe → Format Data → `yes`**) during your initial clean flash so legacy FBE keys from the previous ROM are cleared.
+- **Reboots to Bootloader / Fastboot or stuck on boot logo after Clean Flash**: Ensure you flashed **updated `v2.1.4+` `VendorBoot.zip` `[1/2]` + `System.zip` `[2/2]`** (which adds native **`F2FS` + `EXT4`** `/data` support for `TWRP 3.7.0_12-0` and clean `/metadata` formatting) AND performed Step 5 (**Wipe → Format Data → type `yes`**, **NOT** *Swipe to Factory Reset / Wipe Data*).
 - **Using Custom Private DNS (`dns.adguard-dns.com` / `dns.nextdns.io`)**: Native Android Private DNS (DoT/DoH3) works out-of-the-box under **Settings → Network & internet → Private DNS** with zero packet-inspection latency in Chrome or YouTube.
 - **Changing Refresh Rate / DC Dimming / SuperVOOC Smart Charge Limit**: Open **Settings → System → Realme X2 Pro Settings** (or long-press the **90Hz**, **DC Dim**, or **Sunlight HBM** Quick Settings tiles).
 
