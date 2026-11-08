@@ -1,18 +1,18 @@
 {
   "response": [
     {
-      "datetime": 1794017324,
-      "filename": "RMX1931-Android17-iOSBeta-OTA-v2.1.5-b1.zip",
-      "id": "ec65ce075458dfff9d8693c5cac6bc74bbc48aa4f9ba4353a345c8594f1848fe",
-      "sha256": "ec65ce075458dfff9d8693c5cac6bc74bbc48aa4f9ba4353a345c8594f1848fe",
+      "datetime": 1794142800,
+      "filename": "RMX1931-Android17-iOSBeta-OTA-v2.1.5-b2.zip",
+      "id": "557c9ff6ca17ba0105db2aa830f2966d9e0e839d059f572e06c939228882b1ce",
+      "sha256": "557c9ff6ca17ba0105db2aa830f2966d9e0e839d059f572e06c939228882b1ce",
       "romtype": "PIXELOS",
       "channel": "ios_beta",
-      "size": 59563680,
-      "url": "https://github.com/nithinyadavamaraboina-online/PixelOS-Android17-RMX1931/releases/download/ios-beta-v2.1.5-b1/RMX1931-Android17-iOSBeta-OTA-v2.1.5-b1.zip",
-      "version": "v2.1.5-b1",
-      "tag": "ios-beta-v2.1.5-b1",
+      "size": 59714475,
+      "url": "https://github.com/nithinyadavamaraboina-online/PixelOS-Android17-RMX1931/releases/download/ios-beta-v2.1.5-b2/RMX1931-Android17-iOSBeta-OTA-v2.1.5-b2.zip",
+      "version": "v2.1.5-b2",
+      "tag": "ios-beta-v2.1.5-b2",
       "device": "RMX1931",
-      "changelog": "Pixel OS v2.1.5-b1 \u2014 Opt-In iOS Style UI Beta on Android 17 for Realme X2 Pro (RMX1931)\n\u2022 iOS 26 Home Indicator Bar & Stacked-Deck App Switcher: persistent SamuraiIos26HomeBar capsule overlay with auto-dimming, launcher/overlay double-pill coordination, curved 3D stacked-deck Recents cards, and 1:1 horizontal home-bar app scrub handoff\n\u2022 1:1 Finger-Tracked Sliding Liquid Glass Sheets (Notification Center, Control Center & Lock Screen): GPU AGSL moving 28dp rounded convex meniscus rim, chromatic R/B dispersion, Fresnel specular highlight, and velocity-seeded critically damped spring settlement\n\u2022 90Hz AGSL Liquid Glass Across Phone & Call Screen (IosDialer v1.7.6-ios26): spherical meniscus refraction on all 12 keypad orbs with neighbor-key caustic coupling, live-scrolled backdrop refraction through the 5-tab capsule & search bar, row (i) micro-orbs, and refractive lit/emerald/crimson In-Call lenses\n\u2022 Dual EXT4 + F2FS /data Support, Chrome/Brave 4.14 Native Renderer Fix, 4K60 Gyro-EIS3 & Compact Wireless Patch OTA (< 80 MiB)"
+      "changelog": "Pixel OS v2.1.5-b2 \u2014 Opt-In iOS Style UI Beta on Android 17 for Realme X2 Pro (RMX1931)\n\u2022 Lock Screen & Multi-Hour Reliability + Single-Press Optical UDFPS Fix (IosControlCenter v1.7.6-ios26): carved 0ms Press-#1 Goodix G3 [540, 2156, 95] touch & BlendMode.Clear optical HBM aperture on SamuraiIos26LockScreen, eliminated Quickstep bottom swipe-up pilfer race, switched expanded Lock Screen notifications to LazyColumn, silenced unlocked/screen-off background Binder/Compose churn, and added VoIP & 3rd-party alarm Lock Screen/TopSheet passthrough\n\u2022 Goodix G3 Optical UDFPS Registration & Double-Tap Home Sleep Fix: restored VINTF IUdfpsHelper + Oplus Biometrics 2.1 + BiometricsFingerprint 2.3 matrix, 83Hz 1000-nit HBM illumination sync, and WindowManager Session.sendWallpaperCommand('android.wallpaper.tap') Home double-tap sleep\n\u2022 iOS 26 Home Indicator Bar & Stacked-Deck App Switcher + 1:1 Finger-Tracked Sliding Liquid Glass Sheets (Notification Center, Control Center & Lock Screen) + 90Hz AGSL Liquid Glass Phone & In-Call Lenses"
     }
   ]
 }
