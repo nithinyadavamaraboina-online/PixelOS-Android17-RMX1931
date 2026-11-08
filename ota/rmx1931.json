@@ -1,18 +1,18 @@
 {
   "response": [
     {
-      "datetime": 1793949411,
+      "datetime": 1794170000,
       "filename": "RMX1931-Android17-PixelOS-OTA.zip",
-      "id": "62248f6950af2c524c49444bd6672f20915bff4f38a075d9e357ecc7b0ea35e6",
-      "sha256": "62248f6950af2c524c49444bd6672f20915bff4f38a075d9e357ecc7b0ea35e6",
+      "id": "29085288dd8d140d740f9659c7131d8675a7fb5fb1a8b21e12147fc51a84bd49",
+      "sha256": "29085288dd8d140d740f9659c7131d8675a7fb5fb1a8b21e12147fc51a84bd49",
       "romtype": "PIXELOS",
       "channel": "stable",
-      "size": 41341502,
-      "url": "https://github.com/nithinyadavamaraboina-online/PixelOS-Android17-RMX1931/releases/download/pixelos-stable-v2.1.4/RMX1931-Android17-PixelOS-OTA.zip",
-      "version": "v2.1.4",
-      "tag": "pixelos-stable-v2.1.4",
+      "size": 41446881,
+      "url": "https://github.com/nithinyadavamaraboina-online/PixelOS-Android17-RMX1931/releases/download/pixelos-stable-v2.1.5/RMX1931-Android17-PixelOS-OTA.zip",
+      "version": "v2.1.5",
+      "tag": "pixelos-stable-v2.1.5",
       "device": "RMX1931",
-      "changelog": "Pixel OS v2.1.4 \u2014 Pure Retail Google PixelOS Stable Update for Realme X2 Pro (RMX1931)\n\u2022 Dual EXT4 + F2FS /data Support Out of the Box & Clean-Flash Bootloader-Loop Fix: restored native F2FS + EXT4 /data mounting in /vendor/etc/fstab.qcom (fixing reboot-to-bootloader on TWRP 3.7.0_12-0 when Format Data formats userdata as F2FS), added clean /metadata ext4 formatting & matched Flags=3 vbmeta.img in VendorBoot.zip, and added pre-flight install-order & package-type guards (E1000 / E1002)\n\u2022 Compact Wireless Patch OTA (~40 MiB \u2014 no 1.81 GB full system re-download required!)\n\u2022 Fixed Websites Not Opening in Chrome, Brave & Chromium Browsers: stripped Qualcomm vendor init.target.rc 'stop statsd' and hardened zygote_next's native species library (libzygote_species_android_native.so)\n\u2022 Out-of-the-Box 4K 60fps & 1080p 60fps Hardware Gyro-EIS3 Video Stabilization: patched Qualcomm Spectra 380 CHI HAL (UsecaseVideo4kEIS3PreviewEIS2 + stream-order-independent binder) & pre-seeded Pixel 9 GCam 9.6 custom EIS sessions (32808 60fps / 32779 30fps)\n\u2022 100% Pure Google PixelOS Experience on Default Stable Channel + Opt-In 'iOS Style UI Beta' Toggle in Settings -> System -> System update"
+      "changelog": "Pixel OS v2.1.5 \u2014 Pure Retail Google PixelOS Stable Update for Realme X2 Pro (RMX1931)\n\u2022 Goodix G3 Optical UDFPS Registration & Unlock Fix: fixed Android 17 HidlFingerprintSensorConfig sensorType=0 (TYPE_UNKNOWN) -> 3 (TYPE_UDFPS_OPTICAL) + halControlsIllumination=true in services.jar, started vendor.cdsprpcd CDSP FastRPC daemon for libhvx_proxy_stub.so feature extraction, and granted SELinux vendor_firmware_file + vendor_hal_dspmanager_client + hal_cryptoeng_client permissions\n\u2022 Double-Tap Home Screen to Lock Fix: moved Home Screen double-tap sleep from raw touchpanel coordinate polling to WindowManager Session.sendWallpaperCommand('android.wallpaper.tap') so typing/scrolling never triggers accidental screen locks while Status Bar & Lock Screen double-tap to sleep remain active\n\u2022 Developer Options Force-Close Fix: granted system_app / platform_app SELinux property_service set permissions for logpersistd_logging_prop and debug/logd properties\n\u2022 Compact Wireless Patch OTA (~40 MiB) + Dual EXT4/F2FS /data + 4K60 Gyro-EIS3 GCam 9.6 + Pure Google PixelOS Stable Experience"
     }
   ]
 }
