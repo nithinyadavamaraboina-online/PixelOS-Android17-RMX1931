@@ -1,18 +1,18 @@
 {
   "response": [
     {
-      "datetime": 1794142800,
-      "filename": "RMX1931-Android17-iOSBeta-OTA-v2.1.5-b2.zip",
-      "id": "557c9ff6ca17ba0105db2aa830f2966d9e0e839d059f572e06c939228882b1ce",
-      "sha256": "557c9ff6ca17ba0105db2aa830f2966d9e0e839d059f572e06c939228882b1ce",
+      "datetime": 1794150000,
+      "filename": "RMX1931-Android17-iOSBeta-OTA-v2.1.5-b3.zip",
+      "id": "55b7116e330b698c89aa1c255f3ea05f6c6c018761a4662dbd098cfadd885b7d",
+      "sha256": "55b7116e330b698c89aa1c255f3ea05f6c6c018761a4662dbd098cfadd885b7d",
       "romtype": "PIXELOS",
       "channel": "ios_beta",
-      "size": 59714475,
-      "url": "https://github.com/nithinyadavamaraboina-online/PixelOS-Android17-RMX1931/releases/download/ios-beta-v2.1.5-b2/RMX1931-Android17-iOSBeta-OTA-v2.1.5-b2.zip",
-      "version": "v2.1.5-b2",
-      "tag": "ios-beta-v2.1.5-b2",
+      "size": 59722223,
+      "url": "https://github.com/nithinyadavamaraboina-online/PixelOS-Android17-RMX1931/releases/download/ios-beta-v2.1.5-b3/RMX1931-Android17-iOSBeta-OTA-v2.1.5-b3.zip",
+      "version": "v2.1.5-b3",
+      "tag": "ios-beta-v2.1.5-b3",
       "device": "RMX1931",
-      "changelog": "Pixel OS v2.1.5-b2 \u2014 Opt-In iOS Style UI Beta on Android 17 for Realme X2 Pro (RMX1931)\n\u2022 Lock Screen & Multi-Hour Reliability + Single-Press Optical UDFPS Fix (IosControlCenter v1.7.6-ios26): carved 0ms Press-#1 Goodix G3 [540, 2156, 95] touch & BlendMode.Clear optical HBM aperture on SamuraiIos26LockScreen, eliminated Quickstep bottom swipe-up pilfer race, switched expanded Lock Screen notifications to LazyColumn, silenced unlocked/screen-off background Binder/Compose churn, and added VoIP & 3rd-party alarm Lock Screen/TopSheet passthrough\n\u2022 Goodix G3 Optical UDFPS Registration & Double-Tap Home Sleep Fix: restored VINTF IUdfpsHelper + Oplus Biometrics 2.1 + BiometricsFingerprint 2.3 matrix, 83Hz 1000-nit HBM illumination sync, and WindowManager Session.sendWallpaperCommand('android.wallpaper.tap') Home double-tap sleep\n\u2022 iOS 26 Home Indicator Bar & Stacked-Deck App Switcher + 1:1 Finger-Tracked Sliding Liquid Glass Sheets (Notification Center, Control Center & Lock Screen) + 90Hz AGSL Liquid Glass Phone & In-Call Lenses"
+      "changelog": "Pixel OS v2.1.5-b3 \u2014 Opt-In iOS Style UI Beta on Android 17 for Realme X2 Pro (RMX1931)\n\u2022 Direct Single-Swipe Primary Bouncer Unlock Fix (IosControlCenter v1.7.7-ios26): swiping up on SamuraiIos26LockScreen with PIN/Pattern/Password + UDFPS now transitions directly into Android 17's Primary Bouncer (Overlays.Bouncer) in 1 swipe with frosted wallpaper crossfade, zero intermediate Android Lock Screen flash, zero second swipe, and zero premature iOS Lock Screen snap-back while entering credentials\n\u2022 Lock Screen & Multi-Hour Reliability + Single-Press Optical UDFPS (IosControlCenter v1.7.6-ios26): carved 0ms Press-#1 Goodix G3 [540, 2156, 95] touch & BlendMode.Clear optical HBM aperture, eliminated Quickstep bottom swipe-up pilfer race, switched expanded Lock Screen notifications to LazyColumn, silenced unlocked/screen-off background churn, and added VoIP & 3rd-party alarm passthrough\n\u2022 Goodix G3 Optical UDFPS Registration & Double-Tap Home Sleep + iOS 26 Home Indicator Bar, Stacked-Deck App Switcher & 90Hz AGSL Liquid Glass Sheets"
     }
   ]
 }
