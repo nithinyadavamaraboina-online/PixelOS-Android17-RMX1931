@@ -1,18 +1,18 @@
 {
   "response": [
     {
-      "datetime": 1794207990,
+      "datetime": 1794223959,
       "filename": "RMX1931-Android17-PixelOS-OTA.zip",
-      "id": "2396c8ecb16dc251dd034919fdff7ef4a94d35611b2b8e8b7b0a9af2d9c7d5be",
-      "sha256": "2396c8ecb16dc251dd034919fdff7ef4a94d35611b2b8e8b7b0a9af2d9c7d5be",
+      "id": "da42b19fe96b016da792397079f681b615d8c7150c7643f5f0f9eb1a4f51c9c5",
+      "sha256": "da42b19fe96b016da792397079f681b615d8c7150c7643f5f0f9eb1a4f51c9c5",
       "romtype": "PIXELOS",
       "channel": "stable",
-      "size": 41459965,
-      "url": "https://github.com/nithinyadavamaraboina-online/PixelOS-Android17-RMX1931/releases/download/pixelos-stable-v2.1.6/RMX1931-Android17-PixelOS-OTA.zip",
-      "version": "v2.1.6",
-      "tag": "pixelos-stable-v2.1.6",
+      "size": 43633416,
+      "url": "https://github.com/nithinyadavamaraboina-online/PixelOS-Android17-RMX1931/releases/download/pixelos-stable-v2.1.7/RMX1931-Android17-PixelOS-OTA.zip",
+      "version": "v2.1.7",
+      "tag": "pixelos-stable-v2.1.7",
       "device": "RMX1931",
-      "changelog": "Pixel OS v2.1.6 \u2014 Pure Retail Google PixelOS Stable Update for Realme X2 Pro (RMX1931)\n\u2022 Project Infinity-X 4.1 Optical UDFPS Hardware Pipeline (Goodix G3 / GF9500): ported Infinity-X 4.1 190x190 factory-calibrated udfps_icon_pressed.webp lightspot, HWC2 DRM plane FOD_PRESSED_LAYER_ZORDER (0x20000000u) atomic commit hook (libfod_zpos_hook.so), pre-warmed 190x190 TYPE_SECURE_SYSTEM_OVERLAY hardware layer (SamuraiUdfpsOpticalOverlay), and oppo_display dimlayer_hbm alpha-lut fix\n\u2022 Double-Tap Home Screen to Lock Fix: moved Home Screen double-tap sleep from raw touchpanel coordinate polling to WindowManager Session.sendWallpaperCommand('android.wallpaper.tap') so typing/scrolling never triggers accidental screen locks while Status Bar & Lock Screen double-tap to sleep remain active\n\u2022 Developer Options Force-Close Fix: granted system_app / platform_app SELinux property_service set permissions for logpersistd_logging_prop and debug/logd properties\n\u2022 Compact Wireless Patch OTA (~40 MiB) + Dual EXT4/F2FS /data + 4K60 Gyro-EIS3 GCam 9.6 + Pure Google PixelOS Stable Experience"
+      "changelog": "Pixel OS v2.1.7 \u2014 Pure Retail Google PixelOS Stable Update for Realme X2 Pro (RMX1931)\n\u2022 Optical UDFPS Registration & Calibration Fix (Goodix G3 / GF9500): enabled Goodix G3 SPMT panel calibration compatibility in /odm/lib64/libgf_hal_G3.so (vendor.fingerprint.cali=1), linked SDM/DRM FOD plane promotion directly into composer@2.4-service via /vendor/lib64/libdisplaydebug.so with live /sys/kernel/oppo_display/fp_state touch-state tracking, and gated the 190x190 optical lightspot overlay strictly to finger press\n\u2022 Double-Tap Home Screen to Lock Fix: moved Home Screen double-tap sleep from raw touchpanel coordinate polling to WindowManager Session.sendWallpaperCommand('android.wallpaper.tap') so typing/scrolling never triggers accidental screen locks while Status Bar & Lock Screen double-tap to sleep remain active\n\u2022 Developer Options Force-Close Fix: granted system_app / platform_app SELinux property_service set permissions for logpersistd_logging_prop and debug/logd properties\n\u2022 Compact Wireless Patch OTA (~40 MiB) + Dual EXT4/F2FS /data + 4K60 Gyro-EIS3 GCam 9.6 + Pure Google PixelOS Stable Experience"
     }
   ]
 }
