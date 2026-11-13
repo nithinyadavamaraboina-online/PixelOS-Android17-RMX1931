@@ -1,18 +1,18 @@
 {
   "response": [
     {
-      "datetime": 1794473600,
+      "datetime": 1794578991,
       "filename": "RMX1931-Android17-PixelOS-OTA.zip",
-      "id": "4fe4c9769351c4ab77e1621105b9336b14a097537f83e7d8424271c5d37b4b7f",
-      "sha256": "4fe4c9769351c4ab77e1621105b9336b14a097537f83e7d8424271c5d37b4b7f",
+      "id": "b635a925539c591304122db2d7cf3150e215cda70f726b0b3c62efbb18e6f8bf",
+      "sha256": "b635a925539c591304122db2d7cf3150e215cda70f726b0b3c62efbb18e6f8bf",
       "romtype": "PIXELOS",
       "channel": "stable",
-      "size": 64684951,
-      "url": "https://github.com/nithinyadavamaraboina-online/PixelOS-Android17-RMX1931/releases/download/pixelos-stable-v2.1.12/RMX1931-Android17-PixelOS-OTA.zip",
-      "version": "v2.1.12",
-      "tag": "pixelos-stable-v2.1.12",
+      "size": 65643216,
+      "url": "https://github.com/nithinyadavamaraboina-online/PixelOS-Android17-RMX1931/releases/download/pixelos-stable-v2.1.14/RMX1931-Android17-PixelOS-OTA.zip",
+      "version": "v2.1.14",
+      "tag": "pixelos-stable-v2.1.14",
       "device": "RMX1931",
-      "changelog": "What's New in Pixel OS v2.1.12:\n\u2022 Fixed PhonePe Integrity & Root Detection: Automatically hides KernelSU-Next and root manager apps from PhonePe, banking/UPI apps, and Play Protect, and clears stale PhonePe security flags so PhonePe works alongside Google Pay without \"integrity compromised\" errors.\n\u2022 Built-In KernelSU-Next Root Manager (v1.0.9): Pre-installed the matching KernelSU-Next v1.0.9 app out of the box, automatically replaces incompatible v3.x versions that show \"Kernel update required\", and disables self-updates so root stays working.\n\u2022 Fixed In-Display Fingerprint: Pressing the fingerprint sensor during setup and on the lock screen now lights up properly and registers your finger right away.\n\u2022 Fixed Dual SIM: Both SIM cards now work together reliably for calls, SMS, and mobile data.\n\u2022 Fixed Calls, SMS & OTPs: Sending text messages, receiving bank/login OTPs, and making HD voice calls (including on Jio 4G/5G) now work properly.\n\u2022 Fixed Phone App Warning: Removed the \"This device isn't supported\" warning banner when opening the Phone app after a restart.\n\u2022 Fixed Double-Tap to Lock: Double-tapping empty space on the Home Screen now locks the phone right away."
+      "changelog": "What's New in Pixel OS v2.1.14:\n\u2022 Strict Home-Screen-Only Double-Tap Lock: Double-tap to lock now triggers exclusively on the unlocked Home Screen wallpaper and is strictly blocked while typing (keyboard open), inside any app, on the status bar, or on the lock screen.\n\u2022 Room-Aware Adaptive Brightness & User Pattern Learning: Fixed the -14.0 lux sensor bias floor, restored PixelOS brightness overlay curve, sped up room-darkening response (1.5s debounce), kept Adaptive Brightness enabled across slider adjustments, and added a persistent per-user log-lux brightness curve learner (/data/system/samurai_brightness_model.txt).\n\u2022 Goodix G3 Optical UDFPS Calibration Auto-Repair: Added DT_NEEDED calibration shim (libgf_cali_shim.so) + expanded tee_202504 SFS SELinux rules on /mnt/vendor/persist/data/sfs so fingerprint scanning and enrollment initialize cleanly without getting stuck.\n\u2022 Calibrated Dark-Room Minimum Brightness & 15s Screen Timeout: 2.0-nit to 450-nit 10-bit Samsung AMOLED curve and reliable 15-second screen-off sleep even while USB-plugged.\n\u2022 Fixed Banking & UPI Apps (Paytm, PhonePe & Google Pay) & Duplicate Camera App Icon alongside built-in KernelSU-Next v1.0.9.\n\u2022 60fps Google Pixel OLED Boot Animation & Wi-Fi Hotspot Stability."
     }
   ]
 }

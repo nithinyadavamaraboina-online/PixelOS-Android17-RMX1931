@@ -29,7 +29,7 @@ Clean, daily-driver **Retail Google Pixel OS (Android 17 `CinnamonBun`, Build `C
   - **Display**: Locked `Smooth 90Hz`, `Adaptive 90Hz`, or `60Hz Saver`, One-Pulse Anti-Flicker **DC Dimming**, calibrated OLED low-brightness slider + Sunlight **High Brightness Mode (HBM)**, and sRGB / DCI-P3 / Vivid color modes.
   - **Charging**: Full **50W SuperVOOC** fast charging support, Smart Charging Limit (`80%` / `90%` / `100%`), and live wattage/current/temperature telemetry.
   - **Audio & Haptics**: Dual **NXP TFA9894** stereo speaker presets (`Balanced Stereo`, `Rich Bass`, `Clear Voice`), `165 Hz` acoustic water/dust speaker cleaner, and **Awinic AW8697** X-axis LRA haptic intensity control.
-  - **Screen-Off Gestures**: Double-Tap to Wake (`DT2W`), Double-Tap Status Bar / Home Screen to Sleep (`DT2S`), Draw `V` for Torch, Draw `O` for Camera, off-screen music gestures, and optional Bottom Navigation Bar visibility toggle.
+  - **Screen-Off Gestures**: Double-Tap to Wake (`DT2W`), Double-Tap Home Screen to Sleep (`DT2S`), Draw `V` for Torch, Draw `O` for Camera, off-screen music gestures, and optional Bottom Navigation Bar visibility toggle.
 - **Optional Opt-In `"iOS Style UI Beta"` Channel (`Settings → System → System update`)**:
   - Completely isolated from the default Stable Pixel OS build. When opted in, switches your UI to the experimental **iOS 26 Liquid Glass Suite** (`90Hz` AGSL Liquid Glass Home Screen Dock & `"Q Search"` pill, 129 multi-plane iOS 26 squircle icons, left/right **iOS 26 Notification Center & Control Center** + **Lock Screen**, standalone `IosSettings`, clean-room `IosDialer` Phone + Live Call Screen, `IosMessages`, and `iOS Styler` with `20%` Refraction / `20%` Frost / `70%` Wallpaper Depth defaults) while sharing the exact same verified kernel, camera, Chrome/WebView, and hardware fixes.
 - **Pixel Backup & Optional Privacy Browser**:
@@ -74,8 +74,8 @@ Grab the latest release files from the [**GitHub Releases Page**](https://github
 | Package | When to Use | Approximate Size |
 | :--- | :--- | :---: |
 | **`RMX1931-Android17-PixelOS-VendorBoot.zip`** | **First-time Clean Flash — Step 1 of 2** (Vendor + Dual `EXT4`/`F2FS` `/data` fstab + Goodix UDFPS ODM + Linux `4.14.356` Kernel + `dtbo` + `Flags=3` `vbmeta` + clean `/metadata` format) | `~858 MiB` |
-| **`RMX1931-Android17-PixelOS-System.zip`** | **First-time Clean Flash — Step 2 of 2** (Full Pure Google Pixel OS `v2.1.9` Stable + Dual-SIM QTI VoLTE/SMS + Google Apps + 4K60 EIS3 GCam 9.6 + Goodix G3 Optical UDFPS + Dual-Channel OTA Engine) | `~1.85 GiB` |
-| **`RMX1931-Android17-PixelOS-OTA.zip`** | **Wireless Pure Pixel OS Update (`v2.1.9`) — Existing Installs ONLY** (Downloaded automatically by **Settings → System → System update** on `v1.x` / `v2.0` / `v2.1.x` — **do NOT use for a first-time clean flash!**) | `~45 MiB` |
+| **`RMX1931-Android17-PixelOS-System.zip`** | **First-time Clean Flash — Step 2 of 2** (Full Pure Google Pixel OS `v2.1.14` Stable + Dual-SIM QTI VoLTE/SMS + Google Apps + 4K60 EIS3 GCam 9.6 + Goodix G3 Optical UDFPS + Dual-Channel OTA Engine) | `~1.85 GiB` |
+| **`RMX1931-Android17-PixelOS-OTA.zip`** | **Wireless Pure Pixel OS Update (`v2.1.14`) — Existing Installs ONLY** (Downloaded automatically by **Settings → System → System update** on `v1.x` / `v2.0` / `v2.1.x` — **do NOT use for a first-time clean flash!**) | `~45 MiB` |
 
 > **Why is the first-time Clean Flash split into `VendorBoot.zip` + `System.zip`?**
 > GitHub Releases enforces a `2.0 GiB` per-file limit, while a full Android 17 + GMS + GCam 9.6 image totals `~2.72 GiB`. Splitting Vendor/Boot (`[1/2]`) and System (`[2/2]`) keeps 100% of downloads fast and ad-free directly on GitHub Releases. You can queue both ZIPs together in TWRP in a single swipe — and **once installed, all future updates arrive as compact Wireless OTAs!**
@@ -115,7 +115,7 @@ Always verify checksums against `SHA256SUMS.txt` attached to each GitHub Release
 4. Copy both ZIPs to the phone over USB MTP (or plug in your USB-OTG drive) and tap **Install** *(order matters — enforced automatically by pre-flight guard `E1000`)*:
    - Select **`RMX1931-Android17-PixelOS-VendorBoot.zip`** **FIRST** (`[1/2]`).
    - Tap **Add more Zips** and select **`RMX1931-Android17-PixelOS-System.zip`** **SECOND** (`[2/2]`).
-   - **Swipe to confirm Flash** (waits ~2–3 minutes until `Part [2/2] Android 17 Pixel OS System (v2.1.9) complete!` appears).
+   - **Swipe to confirm Flash** (waits ~2–3 minutes until `Part [2/2] Android 17 Pixel OS System (v2.1.14) complete!` appears).
 5. Go back to **Wipe → Format Data** (the button on the right), type **`yes`**, and tap the blue checkmark.
    - *(⚠️ **Important**: Use **Format Data → `yes`** — do **NOT** use "Swipe to Factory Reset / Wipe Data"! Both **`EXT4`** and **`F2FS`** `/data` filesystems are supported out of the box on TWRP `3.7.0_12-0`+.)*
 6. Tap **Reboot → System**.
