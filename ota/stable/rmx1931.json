@@ -1,18 +1,18 @@
 {
   "response": [
     {
-      "datetime": 1794643764,
+      "datetime": 1794656606,
       "filename": "RMX1931-Android17-PixelOS-OTA.zip",
-      "id": "33463ccab1d0f9bc8de42bede54b6d3d65bbb84dc1b51b6aaa657e2306da144d",
-      "sha256": "33463ccab1d0f9bc8de42bede54b6d3d65bbb84dc1b51b6aaa657e2306da144d",
+      "id": "b7bc7507b0bc6df35ca024e40898b4ab9f70c39c6db682d0c3071193df4c85da",
+      "sha256": "b7bc7507b0bc6df35ca024e40898b4ab9f70c39c6db682d0c3071193df4c85da",
       "romtype": "PIXELOS",
       "channel": "stable",
-      "size": 65644946,
-      "url": "https://github.com/nithinyadavamaraboina-online/PixelOS-Android17-RMX1931/releases/download/pixelos-stable-v2.1.15/RMX1931-Android17-PixelOS-OTA.zip",
-      "version": "v2.1.15",
-      "tag": "pixelos-stable-v2.1.15",
+      "size": 65646366,
+      "url": "https://github.com/nithinyadavamaraboina-online/PixelOS-Android17-RMX1931/releases/download/pixelos-stable-v2.1.16/RMX1931-Android17-PixelOS-OTA.zip",
+      "version": "v2.1.16",
+      "tag": "pixelos-stable-v2.1.16",
       "device": "RMX1931",
-      "changelog": "What's New in Pixel OS v2.1.15:\n\u2022 Real-Time Bidirectional Auto-Brightness & Persistent Room Pattern Learning: Fixed vendor AlsCorrection hysteresis deadlock and [10, 71.43] lux indoor freeze, eliminated <100ms ON_CHANGE ALS event drops and IAreaCapture transient drops in multihal, prevented PhysicalMappingStrategy from wiping learned curves back to default on power updates, and removed ShortTermModel double-warping across QS & Settings sliders.\n\u2022 Strict Home-Screen-Only Double-Tap Lock: Double-tap to lock triggers exclusively on the unlocked Home Screen wallpaper and is strictly blocked while typing (keyboard open), inside any app, on the status bar, or on the lock screen.\n\u2022 Goodix G3 Optical UDFPS Calibration Auto-Repair: DT_NEEDED calibration shim (libgf_cali_shim.so) + expanded tee_202504 SFS SELinux rules on /mnt/vendor/persist/data/sfs so fingerprint scanning and enrollment initialize cleanly.\n\u2022 Calibrated Dark-Room Minimum Brightness & 15s Screen Timeout: 2.0-nit to 450-nit 10-bit Samsung AMOLED curve and reliable 15-second screen-off sleep even while USB-plugged.\n\u2022 Fixed Banking & UPI Apps (Paytm, PhonePe & Google Pay) & Duplicate Camera App Icon alongside built-in KernelSU-Next v1.0.9.\n\u2022 60fps Google Pixel OLED Boot Animation & Wi-Fi Hotspot Stability."
+      "changelog": "What's New in Pixel OS v2.1.16:\n\u2022 Restored Qualcomm SLPI Sensor Engine & Real-Time Adaptive Brightness: Fixed vendor.sensors.sscrpcd.rc so /vendor/bin/sscrpcd starts Qualcomm SLPI FastRPC and registers stk_stk2x3x ambient light and all motion/proximity sensors, combined with multihal ALS hysteresis/rate-limit fixes, persistent per-room user brightness pattern learning across PhysicalMappingStrategy updates, and unified QS & Settings slider learning.\n\u2022 Strict Home-Screen-Only Double-Tap Lock: Double-tap to lock triggers exclusively on the unlocked Home Screen wallpaper and is strictly blocked while typing (keyboard open), inside any app, on the status bar, or on the lock screen.\n\u2022 Goodix G3 Optical UDFPS Calibration Auto-Repair: DT_NEEDED calibration shim (libgf_cali_shim.so) + expanded tee_202504 SFS SELinux rules on /mnt/vendor/persist/data/sfs so fingerprint scanning and enrollment initialize cleanly.\n\u2022 Calibrated Dark-Room Minimum Brightness & 15s Screen Timeout: 2.0-nit to 450-nit 10-bit Samsung AMOLED curve and reliable 15-second screen-off sleep even while USB-plugged.\n\u2022 Fixed Banking & UPI Apps (Paytm, PhonePe & Google Pay) & Duplicate Camera App Icon alongside built-in KernelSU-Next v1.0.9.\n\u2022 60fps Google Pixel OLED Boot Animation & Wi-Fi Hotspot Stability."
     }
   ]
 }
